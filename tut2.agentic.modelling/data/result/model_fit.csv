@@ -1,0 +1,4 @@
+"model","n","r_squared","adj_r_squared","first_stage_f","first_stage_df1","first_stage_df2","first_stage_p"
+"Model 1: OLS (no controls)",3010,0.098736514523943,0.0984368923545693,NA,NA,NA,NA
+"Model 2: OLS (with controls)",3010,0.299836490472248,0.296328657258181,NA,NA,NA,NA
+"Model 3: 2SLS (nearc4)",3010,0.23816553222076,0.234348726269962,13.2557853305883,1,2994,0.000276340085727774

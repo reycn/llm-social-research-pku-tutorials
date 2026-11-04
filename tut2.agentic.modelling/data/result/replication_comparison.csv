@@ -1,0 +1,5 @@
+"quantity","estimate","std_error"
+"OLS return to schooling (Card, 1993, conclusion)",0.073,NA
+"OLS return to schooling (Model 2, this replication)",0.0746932555931174,0.0034983456584787
+"2SLS return to schooling (Card, 1993, Table 3, column 5)",0.132,0.055
+"2SLS return to schooling (Model 3, this replication)",0.131503836244945,0.0549636726011916
