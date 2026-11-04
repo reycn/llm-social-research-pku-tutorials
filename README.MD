@@ -14,8 +14,8 @@ Tutorials for [Responsibly Deploy AI in Quantitative Social Research](https://gi
   [[Paper]](https://academic.oup.com/joc/advance-article/doi/10.1093/joc/jqag018/8858993). [[File]](./tut4.ai.review.critical/chen.and.kim.2026.pdf). [[Review]](./tut4.ai.review.critical/chen.and.kim.2026.ai.review.mhtml) 
 
 - Tutorial 5. Object detection using YoLo *  
-  [[Notebook]](./tut5.object.detection/tut4.object.detection.ipynb).
-  [[Google Colab]](./tut5.object.detection/tut4.object.detection.ipynb)
+  [[Notebook]](./tut5.object.detection/object.detection.ipynb).
+  [[Google Colab]]()
 
 - Tutorial 6. Stimulus generation using multimodal model *   
   [[Link]](https://bfl.ai/models/flux-3-image)
