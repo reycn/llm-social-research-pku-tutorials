@@ -1,0 +1,20 @@
+
+根据 https://github.com/reycn/agent-research-docs/blob/main/PROJECT.md 启动一个最小研究项目，其中我需要一个脚本来复制并探索 Card 1993 项目（利用大学邻近性差异估计入学回报）
+
+研究问题是教育对收入的影响。
+
+首先创建这个 R 脚本并安装必要的包。
+
+其次，根据 https://github.com/reycn/agent-research-docs/blob/main/FIGURE.md 中的规则，绘制教育与收入之间的相关关系散点图。
+
+第三，运行模型 1，即普通最小二乘回归 `lwage ~ educ`；模型 2，以及包含控制变量普通最小二乘回归 <- c(
+"black", "south", "smsa", "smsa66",
+paste0("reg66", 2:9), # 地区 1 为参考类别
+"exper", "expersq"
+)
+
+第四，运行一个工具变量版本模型 3，其中 educ 通过 `nearc4` 作为工具变量。
+
+最后，(a) 根据 https://github.com/reycn/agent-research-docs/blob/main/FIGURE.md 中的规则，绘制三个模型的效应大小图；(b) 根据 https://github.com/reycn/agent-research-docs/blob/main/LATEX-APA.md、https://github.com/reycn/agent-research-docs/blob/main/STATISTICS.md 中的规则，按主题句报告我们的结果段落，简要统计结果，对读者有意义的估计变化，以及对结果的一种解释；以及 (c) 根据 https://github.com/reycn/agent-research-docs/blob/main/TABLE.md 中的规则生成一个 Markdown 表格。
+
+请注意，所有数字、表格和图表应通过 R 函数直接导出。
