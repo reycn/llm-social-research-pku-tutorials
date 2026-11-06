@@ -1,5 +1,32 @@
 Tutorials for [Responsibly Deploy AI in Quantitative Social Research](https://github.com/reycn/llm-social-research-pku)
 
+## For NUS students
+- **Tut: Prompt**
+1. Download [Antigravity](https://antigravity.google/)
+2. Create a new project with an empty folder
+3. Under that project, create a conversation and chat with the following prompt: 
+```
+
+Initiate a minimal research project according to https://github.com/reycn/agent-research-docs/blob/main/PROJECT.md , in which i want one script to replicate and explore Card 1993 (Using Geographic Variation in College Proximity to Estimate the Return to Schooling)
+
+The research question is the effects of education on income.
+
+First create this R script and install necessary packages.
+
+Second, explore the correlation between education and income, plot a scatter plot according to the rules in https://github.com/reycn/agent-research-docs/blob/main/FIGURE.md
+
+Third, run Model 1, an ordinary least square regression `lwage ~ educ`; Model 2, and ordinary least square regression with covariates controls <- c(
+  "black", "south", "smsa", "smsa66",
+  paste0("reg66", 2:9),  # region 1 is the reference category
+  "exper", "expersq"
+)
+
+Lastly, (a) plot the effect sizes in two models according to the rules in https://github.com/reycn/agent-research-docs/blob/main/FIGURE.md; (b) report a paragraph by a topic sentence of our results, brief results of statistics, estimated changes that make sense to readers, and one interpretation of the results; according to the rules in https://github.com/reycn/agent-research-docs/blob/main/LATEX-APA.md, https://github.com/reycn/agent-research-docs/blob/main/STATISTICS.md, and (c) generate a markdown table according to the rules in https://github.com/reycn/agent-research-docs/blob/main/TABLE.md.
+
+Please note that all numbers, tables, and figures should be exported directly by R functions.
+```
+
+## For PKU students
 - Tutorial 1. Text classfication using Roberta*.  
   [[Google Colab]](https://colab.research.google.com/github/DhavalTaunk08/NLP_scripts/blob/master/sentiment_analysis_using_roberta.ipynb)
 

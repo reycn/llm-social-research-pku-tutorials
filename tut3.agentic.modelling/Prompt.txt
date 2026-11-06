@@ -17,9 +17,7 @@ Third, run Model 1, an ordinary least square regression `lwage ~ educ`; Model 2,
   "exper", "expersq"
 )
 
-Fourth, run an instrumental variable version Model 3 where the educ is instrumented by `nearc4`
-
-Lastly, (a) plot the effect sizes in three models according to the rules in https://github.com/reycn/agent-research-docs/blob/main/FIGURE.md; (b) report a paragraph by a topic sentence of our results, brief results of statistics, estimated changes that make sense to readers, and one interpretation of the results; according to the rules in https://github.com/reycn/agent-research-docs/blob/main/LATEX-APA.md, https://github.com/reycn/agent-research-docs/blob/main/STATISTICS.md, and (c) generate a markdown table according to the rules in https://github.com/reycn/agent-research-docs/blob/main/TABLE.md.
+Lastly, (a) plot the effect sizes in two models according to the rules in https://github.com/reycn/agent-research-docs/blob/main/FIGURE.md; (b) report a paragraph by a topic sentence of our results, brief results of statistics, estimated changes that make sense to readers, and one interpretation of the results; according to the rules in https://github.com/reycn/agent-research-docs/blob/main/LATEX-APA.md, https://github.com/reycn/agent-research-docs/blob/main/STATISTICS.md, and (c) generate a markdown table according to the rules in https://github.com/reycn/agent-research-docs/blob/main/TABLE.md.
 
 Please note that all numbers, tables, and figures should be exported directly by R functions.
 ```
