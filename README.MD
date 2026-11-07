@@ -4,7 +4,7 @@ Tutorials for [Responsibly Deploy AI in Quantitative Social Research](https://gi
 - **Tut: Prompt**
 1. Download [Antigravity](https://antigravity.google/)
 2. Create a new project with an empty folder
-3. Under that project, create a conversation and chat with the following prompt: 
+3. Under that project, create a conversation, select permission level, and chat using the following prompt: 
 ```
 
 Initiate a minimal research project according to https://github.com/reycn/agent-research-docs/blob/main/PROJECT.md , in which i want one script to replicate and explore Card 1993 (Using Geographic Variation in College Proximity to Estimate the Return to Schooling)
